@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <main class="main">
+            <div class="calculator">
+                <div class="screen">
+                    <div class="screen-last" id="lastScreen"></div>
+                    <div class="screen-current" id="currentScreen">0</div>
+                </div>
+                <div class="buttons-grid">
+                    <button class="btn span-2" id="clear">CLEAR</button>
+                    <button class="btn span-2" id="delete">DELETE</button>
+
+                    <button class="btn" data-number>7</button>
+                    <button class="btn" data-number>8</button>
+                    <button class="btn" data-number>9</button>
+                    <button class="btn" data-operator>÷</button>
+
+                    <button class="btn" data-number>4</button>
+                    <button class="btn" data-number>5</button>
+                    <button class="btn" data-number>6</button>
+                    <button class="btn" data-operator>-</button>
+
+                    <button class="btn" data-number>1</button>
+                    <button class="btn" data-number>2</button>
+                    <button class="btn" data-number>3</button>
+                    <button class="btn" data-operator>+</button>
+
+                    <button class="btn" data-number>0</button>
+                    <button class="btn" id="point">.</button>
+                    <button class="btn" id="equals">=</button>
+                    <button class="btn" data-operator>x</button>
+
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>
+                Copyright ©
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                zacharyhill
+            </p>
+
+        </footer>
+
+        <script src="script.js" async defer></script>
+    </body>
+    
+</html>
